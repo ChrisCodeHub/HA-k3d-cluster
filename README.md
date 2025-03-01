@@ -39,8 +39,7 @@ k3d cluster create my-ha-cluster \
   --k3s-arg "--disable=servicelb@server:2" \
   --port "30080:30080@server:0" \
   --wait
-  --port "30080:30080@server:0" \
-  --wait
+
   
   ```
 k3d cluster create my-ha-cluster --servers 3 --no-agents --k3s-arg "--disable=traefik@server:0" --wait
