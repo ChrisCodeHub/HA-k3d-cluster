@@ -73,7 +73,6 @@ __What This Cluster Looks Like__
 
 | Node    | Role             | Docker Container Name  | 
 |---------|------------------|------------------------|
-| Node    | Role             | Docker Container Name  | 
 | Control | Plane (Server 1) | k3d-local-k8s-server-0 | 
 | Control | Plane (Server 2) | k3d-local-k8s-server-1 | 
 | Control | Plane (Server 3) | k3d-local-k8s-server-2 | 
@@ -98,12 +97,6 @@ k3d cluster delete [NAME [NAME ...] | --all] [flags]
 #  -h, --help            help for delete
 
 ```
-|     Role                 | name                   |
-|--------------------------|------------------------|
-| Control Plane (Server 1) | k3d-local-k8s-server-0 | 
-| Control Plane (Server 2) | k3d-local-k8s-server-1 | 
-| Control Plane (Server 3) | k3d-local-k8s-server-2 | 
-
 
 # TEST
 to test, a simple hello world  nginx container seems like a good idea - aka `test-nginx-deployment.yaml`
