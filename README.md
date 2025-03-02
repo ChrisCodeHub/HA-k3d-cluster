@@ -69,6 +69,11 @@ docker ps
 ```
 
 __What This Cluster Looks Like__
+<<<<<<< Updated upstream
+=======
+
+| Node    | Role             | Docker Container Name  | 
+>>>>>>> Stashed changes
 |---------|------------------|------------------------|
 | Node    | Role             | Docker Container Name  | 
 | Control | Plane (Server 1) | k3d-local-k8s-server-0 | 
@@ -96,8 +101,8 @@ k3d cluster delete [NAME [NAME ...] | --all] [flags]
 
 ```
 
-|---------|------------------|------------------------|
 | Control | Plane (Server 1) | k3d-local-k8s-server-0 | 
+|---------|------------------|------------------------|
 | Control | Plane (Server 2) | k3d-local-k8s-server-1 | 
 | Control | Plane (Server 3) | k3d-local-k8s-server-2 | 
 
